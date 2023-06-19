@@ -70,9 +70,9 @@ function IncomingTrans() {
                 <th scope="row">{index + 1}</th>
                 <td>{kont?.user?.name}</td>
                 <td>Bri.png</td>
-                <td>{transaction?.duration}</td>
+                <td>{kont?.duration}</td>
                 <td>{kont?.user?.subs}</td>
-                <td>{transaction?.status}</td>
+                <td>{kont?.status}</td>
                 <td>
                   <button
                     type="button"
