@@ -19,7 +19,6 @@ function Detailcom() {
     console.log(detail, "ini isi detail");
 
     const [state] = useContext(UserContext);
-    state?.user.subs
     console.log(state, "ini state");
 
 
