@@ -24,7 +24,7 @@ function Detailcom() {
 
   return (
     <div>
-        {state?.user?.subs === "premium" ? (
+        {state?.user?.subs === "Premium" ? (
         <div class="videoWrapper"><iframe src={detail?.link}
         frameborder="0" allowfullscreen class="video"></iframe></div>) : (<div > <h1 className='text-light text-center'>silahkan Subrek dahulu</h1> <div className='justify-content-center'><Button href='/payment' className='btn btn-danger'>UPGRADE</Button > </div>  </div>)}
         <div className='d-flex justify-content-between ' style={{margin:"100px"}}>
