@@ -14,8 +14,8 @@ function Login(props) {
 
     let navigate = useNavigate();
   
-    const title = 'Login';
-    document.title = 'Dumbmerch | ' + title;
+    // const title = 'Login';
+    document.title = 'Dumbflix';
   
     const [_, dispatch] = useContext(UserContext);
   
